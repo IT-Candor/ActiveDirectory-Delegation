@@ -1,0 +1,14 @@
+{
+    "LapsOrganizationUnits": [
+        {
+            "OuDn": "OU=ComputerAccounts,DC=lab,DC=com",
+            "SamAccountName": "GroupSamAccountName",
+            "SamAccountType": "Group"
+        },
+        {
+            "OuDn": "OU=NotebookAccounts,DC=lab,DC=com",
+            "SamAccountName": "GroupSamAccountName",
+            "SamAccountType": "Group"
+        }
+    ]
+}

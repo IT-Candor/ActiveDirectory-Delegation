@@ -1,0 +1,88 @@
+{
+    "OrganizationUnits": [
+        {
+            "OuDn": "OU=UsersAccounts,DC=lab,DC=com",
+            "SamAccountName": "UserSamAccountName",
+            "SamAccountType": "User",
+            "SamAccountSid": "UserSID",
+            "ActiveDirectoryRights": "WriteProperty",
+            "AccessControlType": "Allow",
+            "AccessControlTypeDelegations": [
+                {
+                    "name": "givenName",
+                    "value": "f0f8ff8e-1191-11d0-a060-00aa006c33ed"
+                },
+                {
+                    "name": "initials",
+                    "value": "f0f8ff90-1191-11d0-a060-00aa006c33ed"
+                }
+            ],
+            "ActiveDirectorySecurityInheritance": "Descendents",
+            "ActiveDirectorySecurityInheritanceObjectType": "user",
+            "ActiveDirectorySecurityInheritanceObjectTypeGuid": "bf967aba-0de6-11d0-a285-00aa003049e2"
+        },
+        {
+            "OuDn": "OU=UsersAccounts,DC=lab,DC=com",
+            "SamAccountName": "GroupSamAccountName",
+            "SamAccountType": "Group",
+            "SamAccountSid": "GroupSID",
+            "ActiveDirectoryRights": "WriteProperty",
+            "AccessControlType": "Allow",
+            "AccessControlTypeDelegations": [
+                {
+                    "name": "name",
+                    "value": "bf967a0e-0de6-11d0-a285-00aa003049e2"
+                },
+                {
+                    "name": "description",
+                    "value": "bf967950-0de6-11d0-a285-00aa003049e2"
+                }
+            ],
+            "ActiveDirectorySecurityInheritance": "Descendents",
+            "ActiveDirectorySecurityInheritanceObjectType": "group",
+            "ActiveDirectorySecurityInheritanceObjectTypeGuid": "bf967a9c-0de6-11d0-a285-00aa003049e2"
+        },
+        {
+            "OuDn": "OU=UsersAccounts,DC=lab,DC=com",
+            "SamAccountName": "GroupSamAccountName",
+            "SamAccountType": "Group",
+            "SamAccountSid": "GroupSID",
+            "ActiveDirectoryRights": "ExtendedRight",
+            "AccessControlType": "Allow",
+            "AccessControlTypeDelegations": [
+                {
+                    "name": "Change Password",
+                    "value": "ab721a53-1e2f-11d0-9819-00aa0040529b"
+                },
+                {
+                    "name": "Reset Password",
+                    "value": "00299570-246d-11d0-a768-00aa006e0529"
+                }
+            ],
+            "ActiveDirectorySecurityInheritance": "Descendents",
+            "ActiveDirectorySecurityInheritanceObjectType": "user",
+            "ActiveDirectorySecurityInheritanceObjectTypeGuid": "bf967aba-0de6-11d0-a285-00aa003049e2"
+        },
+        {
+            "OuDn": "OU=ComputerAccounts,DC=lab,DC=com",
+            "SamAccountName": "GroupSamAccountName",
+            "SamAccountType": "Group",
+            "SamAccountSid": "GroupSID",
+            "ActiveDirectoryRights": "WriteProperty",
+            "AccessControlType": "Allow",
+            "AccessControlTypeDelegations": [
+                {
+                    "name": "name",
+                    "value": "bf967a0e-0de6-11d0-a285-00aa003049e2"
+                },
+                {
+                    "name": "member",
+                    "value": "bf9679c0-0de6-11d0-a285-00aa003049e2"
+                }
+            ],
+            "ActiveDirectorySecurityInheritance": "Descendents",
+            "ActiveDirectorySecurityInheritanceObjectType": "computer",
+            "ActiveDirectorySecurityInheritanceObjectTypeGuid": "bf967a86-0de6-11d0-a285-00aa003049e2"
+        }
+    ]
+}
